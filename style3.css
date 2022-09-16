@@ -1,0 +1,39 @@
+
+section {
+    height: 50vh;
+    border: 1px solid black;
+}
+
+p {
+    color: blue;
+}
+/*this is an element*/
+
+.red {
+    color: red;
+}
+/*this is a class*/
+
+#title {
+    color: maroon;
+}
+
+.heading.red {
+    font-family:'courier';
+    color: green;
+}
+
+/* IDs have higher priority than classes. # will be priotized over . in css */
+
+#title.heading.red {
+    color: green;
+}
+
+/* if you put ID and class together like done above, this will have a higher priority now */
+
+.reset {
+    font-weight: 900;
+    color: white;
+    background-color: maroon;
+    padding-left: 40px;
+}

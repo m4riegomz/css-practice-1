@@ -1,0 +1,20 @@
+.team2 {
+    color: red;
+}
+
+.team3 {
+    color: blue;
+}
+/* for class, include a . infront so css targets the class and not an html element*/
+
+
+p {
+    color: black;
+}
+/*note: classes are more specific and thus have the higher priority. Even though P with black comes latter, the classes will rule out*/
+
+#team1 {
+    color: green;
+    font-weight:900;
+    font-family: sans-serif;
+}

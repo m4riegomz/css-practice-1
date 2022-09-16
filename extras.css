@@ -1,0 +1,21 @@
+button {
+    animation: float 1000ms infinite alternate-reverse; 
+    transition: all 800ms;
+    margin: 100px;
+    padding: 50px;
+}
+
+button:hover {
+    
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
+
+@keyframes float {
+    0% {
+transform: translateY(0);
+    }
+    100% {
+transform: translateY(10px);
+    }
+}
